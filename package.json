@@ -1,0 +1,32 @@
+{
+  "name": "jcoc",
+  "version": "1.0.0",
+  "description": "jcoc.me",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "deploy": "echo \"TBD\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cone56/jcoc.git"
+  },
+  "keywords": [
+    "jcoc"
+  ],
+  "author": "James Cockshull",
+  "bugs": {
+    "url": "https://github.com/cone56/jcoc/issues"
+  },
+  "homepage": "https://github.com/cone56/jcoc#readme"
+}
