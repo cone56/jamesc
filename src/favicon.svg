@@ -1,0 +1,11 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient y2="1" x2="0" id="a">
+      <stop offset="0" stop-color="#7c3805"/>
+      <stop offset="1" stop-color="#441f05"/>
+    </linearGradient>
+  </defs>
+  <text font-style="italic" font-weight="bold" stroke="#000" transform="translate(-810.32 -189.234) scale(18.8027)" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" y="29" x="48.1" stroke-width="0" fill="url(#a)" stop-color="red">
+    jc
+  </text>
+</svg>
