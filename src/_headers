@@ -1,0 +1,6 @@
+/*
+    X-Frame-Options: SAMEORIGIN
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: strict-origin-when-cross-origin
+    Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline' www.google-analytics.com; style-src data: 'unsafe-inline'; img-src www.google-analytics.com
