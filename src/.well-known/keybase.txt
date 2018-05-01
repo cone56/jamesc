@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/cone56
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jcoc.me
+  * I am cone56 (https://keybase.io/cone56) on keybase.
+  * I have a public key with fingerprint 1AE2 F709 5212 6E38 442D  DA85 7E94 9D39 72AE 2D6A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013de3b006ead43e48f85aef7ea0aaf8bc43648f298c8e9d9f1a814ab2e4b2fbd50a",
+      "fingerprint": "1ae2f70952126e38442dda857e949d3972ae2d6a",
+      "host": "keybase.io",
+      "key_id": "7e949d3972ae2d6a",
+      "kid": "01013de3b006ead43e48f85aef7ea0aaf8bc43648f298c8e9d9f1a814ab2e4b2fbd50a",
+      "uid": "69a6d3537959a94c626e5f219b24de19",
+      "username": "cone56"
+    },
+    "service": {
+      "hostname": "jcoc.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1525146471,
+  "expire_in": 157680000,
+  "prev": "69c0d5bb1ed0b833ebb87a4ff1a1f7c9ceef696309a6bdca82d2c2cdb542d8f0",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1QVFUYXj4sBJZVJIZ2oeRKk8KK93vvBRMGnRHxY6QMC6jtnnvPZS/I7ra7
+rCwMIA5JNkxii00UYuYAEysf8TlK00DmkCESYIbiKISiMTWERRLJ1L2M/utn5885
+5znP857nec+pVPuo/LyKq06ytuaN2V4DPwNV+r0pZyECLIILiStEcuDyBA8I0O4w
+5kgCEoegGIoRAiQAitKQE0gCkozIUBwUDZBDOU5kAE8StAziLMMzkBVYEeMYjOQA
+DkmAi0CgUA7RI6JkzoI2q00yO+SyGAdx0YCyFI7hNCQYksQFgWMoA2RJViBYAy4T
+BFoRmix2RSGbA5wdxkoWGZM3xmV7/8H/n33nLZejWY4WCIowsBTLsSRPy64pEcdY
+gJMCxFiFaIc2M5cLZTZvMUOKRor0iIw5JR4qbVVyPD7P5i18rLzSI1abxWHhLQdk
+0ORwWO1xisjhsiqsgxAYH+uNQDILcgNlhRPa7JLFjMRhMpN3SEpBjMIpjKRJA6ZH
+YL5VskGjpDAoA82g8lDugc7lGDwqUABgUEABk0oQEADGwJGinB0TDTzLQyjSLE2g
+cl4g8ByDCziP8wKg5AdiRBRRIr1ttiBxuOyTy5Jr2qUsM+fIs0GkyP+oN+Gr8vJT
+RYRG+mp/erjy5WAzs23jjXeefLoV3sqPU/mvXPUEgV9pHgWaQgv41tbI17MXXzux
+UHS/1m2NCosYK9oV2aA5HP1c90yQX8azhrNHmmL/Ou7saPxO7VbbEl6p6F47apmq
+SK4+PlZPnymIuLbh5K8cdiV8urSo7mZP+QyYzhycGenYPOFOP3Ws3zXdGX51ckit
+29KoXdeWZ02kYtMCf5kTPglJy56wvespme/cNL59Nj+lb6924IJPy2/DPeM/IjHD
+zZ4h9xvBC89v9qsNGJyMTt1WbzvT8nV97lzldtXi31sbzn12faRAUzCv+76t5WhQ
+svds4e6wq2kfzDfE3HlUWa9rAB3NMS4mZd/aqfOe+ZFydEce13YpWoOMlmaVJeQH
+uS/Mdc56zN/454hLu+qmLj6sqlvRHDJQm4WdMF1O95nqzdCXqBudL/7OVq/uD90S
+kDsxfOvsS5V6UKc7lv7tg/zMnWPxBwMT96iq9maE9uuCf1hffrHQtGZ1cXFYa/ea
+6SNJgaMic/70/ZzU3sX2U5/7dt3V3nhvKKHnthTy4E21sTq+uPROtWs0zOfan0v7
+J+krO3T7+tyXNBVJ739RcutywB6Xo30TlXx3XUvUxzWtZdr9KRlfxn/Ud6gGPON2
+MTWnq9QfvhXVVDDebl067Mn8459DXPOru29/WtEVkbi+a2vAU+GDGmZBm/TCHLzn
+uWnCgzdcV5U8PXkuNGBpHDBVXuPtvWVN0+p/AQ==
+=V48W
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cone56
+
+==================================================================
