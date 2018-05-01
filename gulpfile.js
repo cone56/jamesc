@@ -12,7 +12,7 @@ gulp.task('serve', function() {
 
 // Basic copy src -> dist
 gulp.task('copy', function() {
-  return gulp.src('src/*').pipe(gulp.dest('dist'))
+  return gulp.src('src/**/*', {dot: true}).pipe(gulp.dest('dist'))
 })
 
 // Clean the dist dir
