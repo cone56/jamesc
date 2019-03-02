@@ -1,4 +1,6 @@
-https://jamescockshull.com/* https://jcoc.me/:splat 301!
-http://jamescockshull.com/* https://jcoc.me/:splat 301!
-https://www.jamescockshull.com/* https://jcoc.me/:splat 301!
-http://www.jamescockshull.com/* https://jcoc.me/:splat 301!
+# Redirect domain aliases to primary domain
+https://jamescockshull.com/* https://jamesc.dev/:splat 301!
+https://www.jamescockshull.com/* https://jamesc.dev/:splat 301!
+https://www.jcoc.me/* https://jamesc.dev/:splat 301!
+https://jcoc.me/* https://jamesc.dev/:splat 301!
+https://jamesc.netlify.com/* https://jamesc.dev/:splat 301!
