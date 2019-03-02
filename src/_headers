@@ -3,5 +3,5 @@
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
     Referrer-Policy: strict-origin-when-cross-origin
-    Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline' www.google-analytics.com; style-src 'unsafe-inline'; img-src 'self' data: www.google-analytics.com
+    Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:
     Cache-control: public, max-age=604800
