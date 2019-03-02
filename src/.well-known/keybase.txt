@@ -4,7 +4,7 @@ https://keybase.io/cone56
 
 I hereby claim:
 
-  * I am an admin of https://jcoc.me
+  * I am an admin of https://jamesc.dev
   * I am cone56 (https://keybase.io/cone56) on keybase.
   * I have a public key with fingerprint 1AE2 F709 5212 6E38 442D  DA85 7E94 9D39 72AE 2D6A
 
@@ -21,17 +21,27 @@ To do so, I am signing this object:
       "uid": "69a6d3537959a94c626e5f219b24de19",
       "username": "cone56"
     },
+    "merkle_root": {
+      "ctime": 1551499171,
+      "hash_meta": "2143700f17bdc9d76d1f5073eee68012cfc1fa5716e8df230720ce8dbe05181f",
+      "seqno": 4861130
+    },
+    "revoke": {
+      "sig_ids": [
+        "7f350bf9615fb149cd00e3a57e37dbefed4e398ccf13f81805f738c8a62474940f"
+      ]
+    },
     "service": {
-      "hostname": "jcoc.me",
+      "hostname": "jamesc.dev",
       "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1525146471,
+  "ctime": 1551499311,
   "expire_in": 157680000,
-  "prev": "69c0d5bb1ed0b833ebb87a4ff1a1f7c9ceef696309a6bdca82d2c2cdb542d8f0",
-  "seqno": 2,
+  "prev": "22a280c2280fac0f372a023cc992055c686f639d90e8731e06c4b24cde6efc9f",
+  "seqno": 5,
   "tag": "signature"
 }
 
@@ -39,29 +49,32 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owGtUm1QVFUYXj4sBJZVJIZ2oeRKk8KK93vvBRMGnRHxY6QMC6jtnnvPZS/I7ra7
-rCwMIA5JNkxii00UYuYAEysf8TlK00DmkCESYIbiKISiMTWERRLJ1L2M/utn5885
-5znP857nec+pVPuo/LyKq06ytuaN2V4DPwNV+r0pZyECLIILiStEcuDyBA8I0O4w
-5kgCEoegGIoRAiQAitKQE0gCkozIUBwUDZBDOU5kAE8StAziLMMzkBVYEeMYjOQA
-DkmAi0CgUA7RI6JkzoI2q00yO+SyGAdx0YCyFI7hNCQYksQFgWMoA2RJViBYAy4T
-BFoRmix2RSGbA5wdxkoWGZM3xmV7/8H/n33nLZejWY4WCIowsBTLsSRPy64pEcdY
-gJMCxFiFaIc2M5cLZTZvMUOKRor0iIw5JR4qbVVyPD7P5i18rLzSI1abxWHhLQdk
-0ORwWO1xisjhsiqsgxAYH+uNQDILcgNlhRPa7JLFjMRhMpN3SEpBjMIpjKRJA6ZH
-YL5VskGjpDAoA82g8lDugc7lGDwqUABgUEABk0oQEADGwJGinB0TDTzLQyjSLE2g
-cl4g8ByDCziP8wKg5AdiRBRRIr1ttiBxuOyTy5Jr2qUsM+fIs0GkyP+oN+Gr8vJT
-RYRG+mp/erjy5WAzs23jjXeefLoV3sqPU/mvXPUEgV9pHgWaQgv41tbI17MXXzux
-UHS/1m2NCosYK9oV2aA5HP1c90yQX8azhrNHmmL/Ou7saPxO7VbbEl6p6F47apmq
-SK4+PlZPnymIuLbh5K8cdiV8urSo7mZP+QyYzhycGenYPOFOP3Ws3zXdGX51ckit
-29KoXdeWZ02kYtMCf5kTPglJy56wvespme/cNL59Nj+lb6924IJPy2/DPeM/IjHD
-zZ4h9xvBC89v9qsNGJyMTt1WbzvT8nV97lzldtXi31sbzn12faRAUzCv+76t5WhQ
-svds4e6wq2kfzDfE3HlUWa9rAB3NMS4mZd/aqfOe+ZFydEce13YpWoOMlmaVJeQH
-uS/Mdc56zN/454hLu+qmLj6sqlvRHDJQm4WdMF1O95nqzdCXqBudL/7OVq/uD90S
-kDsxfOvsS5V6UKc7lv7tg/zMnWPxBwMT96iq9maE9uuCf1hffrHQtGZ1cXFYa/ea
-6SNJgaMic/70/ZzU3sX2U5/7dt3V3nhvKKHnthTy4E21sTq+uPROtWs0zOfan0v7
-J+krO3T7+tyXNBVJ739RcutywB6Xo30TlXx3XUvUxzWtZdr9KRlfxn/Ud6gGPON2
-MTWnq9QfvhXVVDDebl067Mn8459DXPOru29/WtEVkbi+a2vAU+GDGmZBm/TCHLzn
-uWnCgzdcV5U8PXkuNGBpHDBVXuPtvWVN0+p/AQ==
-=V48W
+owGtk2tMFUcUxy+gUkAqadRWjW1co2IUndnZ51XUqlXR2ghStb4us7MzsF64i7sr
+4AOKD1T6MGhIIT6iCJraVpNKq2hUaMG0YtKgrTFRTLTGB/1gWxUtPjtLNGmTfux+
+2Nk9+Z9z/vM7MxWJMYH4qJLKXbpzKGVZ1NkOI7B4VSC0WjBsc6UQXC2EafdCc03q
+eqGwZQpBAUAAkUmRAYBCsSkhKmlMkzFlKsUAY6YZREIKD4q6RjSqmzqDWIMSNkQq
+GSIzTBlgYbTArEg2dfIdK+LxshBTkalAl0UoKhRpkiSaJtZkleqSbiJdFbnAVPzE
+HNv1M7g5A7t0jGXzGP8Jddv7D/3/7HtFdzlFx4qJZKTqso51iSjctcxEqBuiZFKo
++0KXOhGcR7ma2BEqK0LxaCGPOuFcGnJs2/PREs/yBVCWoaTrUIV8e9jNCeVRD/M8
+EUpIBYBB1TCJbqqKCZkMVEQpVTQARcIIZFhWoUI1k4kIqCIg/NOgQIYaZNyFS5dH
+bCEoaQqECHAHDi2ww9Rv7lrZHJorBBcJKkMyMJocpitQZgY3Q0wAKOK1KVJ5PUZN
+iSJOhjCImAY1IDMVcVBYESVV0iXAhCXFfjunwCLd5f05vdj/Mr64ZIxJC7ijfMf2
+bGLn8niO5+W7QZ+LtzLfFxZSI/SiRMiwIiY/IzyjgDquZUc4J678NzIEOTJalG85
+NGT5ClnlZPjj9+HtOEMRixogIn8xTABD/GgAERGi6yKQZaJoClMQHzegmoogBQrh
+45aISRXKiP4PhjK3ibN5SQ4ugr0VDhWK48ujUY9AVHxgcP8hPQb++jAu47WINjXl
+UtnLa9Uz2r9Tgfi4pJcRmJgU2D8ntuHytq5v372bczAr+Xzes7Trk8tP9/cS0e26
+rdHhfZe3ZIVXTV/vxWQOnvWourU6t7xzZ828PUP7VSTXXp1RO35+8ciPrI1Z42N/
+qmw8cHFB32k3R05t232iCJKW9JoLT/uMqv9w+5HBwy/PTJU/B9dvbnraN2HonUK3
+eVFNwTh8dfa8G8E/Wm40pI27G1834L2EVvH7trfS9j8b+/GiPr+vfcU87uV90JnU
+q0UuO9kxJNgxZ/aC5MpSLWVE367HZ0dt/3nJGqfI3FzdODyjcuGEN6qbLlXkXYnp
+1xj/PLkl3Kf0UPmZYwmrtz0ZUJEzqwwubV43/97Ea11J5/deX3CweMu67IuPLhwo
+jZvoXWsf9LgpZ2xd6oFB7oO299/Zu3jfrtvGD7sfo1ObEzPV+wPD/cS0qGEdrV/+
+mND2avum3gs7o1c2HmlYevIWSUncAPuX96wGePSDoxeHpX+381YjOTy8un59guF1
+ZfY22ltjEtLLvi5bs/veN5+lvrm2V0VsbU3HF9HpmSV1VZlFy8dsSJlf2Ls1dPpM
+/dtZOz7RrsyZuSemSZpRqpybO+XKn4Xg9lfWNrxCmgTiTty/05xRtfDejh7p2bdK
+plSdP1jZXl/j/TViWlPq7EPP7w7K2DE57cm5ku2wKevopIbfUNThUyWfHjtZNGHx
+9EjJjX0Pn07q1fysOfJLwzA7kLnq9a3H19TO/Rs=
+=CfGo
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
