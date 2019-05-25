@@ -1,7 +1,7 @@
 {
-  "name": "jcoc",
+  "name": "jamesc",
   "version": "1.0.0",
-  "description": "jcoc.me",
+  "description": "jamesc.dev",
   "main": "index.html",
   "dependencies": {
     "gulp": "^3.9.1"
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cone56/jcoc.git"
+    "url": "git+https://github.com/cone56/jamesc.git"
   },
   "keywords": [
-    "jcoc"
+    "jamesc"
   ],
   "author": "James Cockshull",
   "bugs": {
-    "url": "https://github.com/cone56/jcoc/issues"
+    "url": "https://github.com/cone56/jamesc/issues"
   },
-  "homepage": "https://github.com/cone56/jcoc#readme",
+  "homepage": "https://github.com/cone56/jamesc#readme",
   "licence": "MIT"
 }
