@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "jamesc.dev",
   "main": "index.html",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2"
   },
   "scripts": {
     "start": "gulp",
