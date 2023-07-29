@@ -8,7 +8,8 @@
     "dev:wrangler": "wrangler pages dev dist --live-reload --compatibility-date=2023-07-24",
     "dev:css": "tailwindcss -i ./src/app.css -o ./dist/public/app.css --watch",
     "build": "mkdir -p dist && cp -r ./public ./dist/ && tailwindcss -i ./src/app.css -o ./dist/public/app.css && esbuild --bundle src/server.tsx --format=esm --outfile=dist/_worker.js",
-    "deploy": "wrangler pages deploy dist --project-name jamesc"
+    "deploy": "wrangler pages deploy dist --project-name jamesc",
+    "tail": "wrangler pages deployment tail --project-name jamesc"
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20230724.0",
