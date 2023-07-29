@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2020"],
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  }
+}
