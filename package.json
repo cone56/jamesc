@@ -7,7 +7,7 @@
     "dev": "run-p dev:*",
     "dev:wrangler": "wrangler pages dev dist --live-reload --compatibility-date=2023-07-24",
     "dev:css": "tailwindcss -i ./src/app.css -o ./dist/public/app.css --watch",
-    "build": "mkdir -p dist && cp -r ./public ./dist/ && tailwindcss -i ./src/app.css -o ./dist/public/app.css && esbuild --bundle src/server.tsx --format=esm --outfile=dist/_worker.js",
+    "build": "mkdir -p dist && cp -r ./public ./dist/ && tailwindcss --minify -i ./src/app.css -o ./dist/public/app.css && esbuild --bundle src/server.tsx --format=esm --outfile=dist/_worker.js",
     "deploy": "wrangler pages deploy dist --project-name jamesc",
     "tail": "wrangler pages deployment tail --project-name jamesc"
   },
