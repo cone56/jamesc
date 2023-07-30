@@ -27,18 +27,18 @@ export const HomePage = () => {
         src="/public/me.jpg"
         alt="James Cockshull"
       />
-      <h1 class="text-xl font-bold my-3">
+      <h1 class="text-xl font-bold my-4">
         <span class="animate-[wave_3s_linear_infinite] inline-block">👋</span>{" "}
         Hi there. I'm James
       </h1>
-      <p>I'm a full stack web developer from Eastbourne, UK.</p>
-      <p>
+      <p class="my-4">I'm a full stack web developer from Eastbourne, UK.</p>
+      <p class="my-4">
         There's nothing hosted on this site; you can find my profiles on the
         interwebs below.
       </p>
-      <ul class="mt-6 ml-6">
+      <ul class="mt-8 ml-8">
         {links.map(({ href, label }) => (
-          <li>
+          <li class="my-2">
             <a
               class="text-blue-700 dark:text-custom-yellow"
               href={href}
