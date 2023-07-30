@@ -40,7 +40,7 @@ export const HomePage = () => {
         {links.map(({ href, label }) => (
           <li>
             <a
-              class="text-custom-yellow underline"
+              class="text-blue-700 dark:text-custom-yellow"
               href={href}
               rel="me external"
             >
