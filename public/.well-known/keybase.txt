@@ -1,0 +1,85 @@
+==================================================================
+https://keybase.io/cone56
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jamesc.dev
+  * I am cone56 (https://keybase.io/cone56) on keybase.
+  * I have a public key with fingerprint 1AE2 F709 5212 6E38 442D  DA85 7E94 9D39 72AE 2D6A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013de3b006ead43e48f85aef7ea0aaf8bc43648f298c8e9d9f1a814ab2e4b2fbd50a",
+      "fingerprint": "1ae2f70952126e38442dda857e949d3972ae2d6a",
+      "host": "keybase.io",
+      "key_id": "7e949d3972ae2d6a",
+      "kid": "01013de3b006ead43e48f85aef7ea0aaf8bc43648f298c8e9d9f1a814ab2e4b2fbd50a",
+      "uid": "69a6d3537959a94c626e5f219b24de19",
+      "username": "cone56"
+    },
+    "merkle_root": {
+      "ctime": 1551499171,
+      "hash_meta": "2143700f17bdc9d76d1f5073eee68012cfc1fa5716e8df230720ce8dbe05181f",
+      "seqno": 4861130
+    },
+    "revoke": {
+      "sig_ids": [
+        "7f350bf9615fb149cd00e3a57e37dbefed4e398ccf13f81805f738c8a62474940f"
+      ]
+    },
+    "service": {
+      "hostname": "jamesc.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1551499311,
+  "expire_in": 157680000,
+  "prev": "22a280c2280fac0f372a023cc992055c686f639d90e8731e06c4b24cde6efc9f",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtk2tMFUcUxy+gUkAqadRWjW1co2IUndnZ51XUqlXR2ghStb4us7MzsF64i7sr
+4AOKD1T6MGhIIT6iCJraVpNKq2hUaMG0YtKgrTFRTLTGB/1gWxUtPjtLNGmTfux+
+2Nk9+Z9z/vM7MxWJMYH4qJLKXbpzKGVZ1NkOI7B4VSC0WjBsc6UQXC2EafdCc03q
+eqGwZQpBAUAAkUmRAYBCsSkhKmlMkzFlKsUAY6YZREIKD4q6RjSqmzqDWIMSNkQq
+GSIzTBlgYbTArEg2dfIdK+LxshBTkalAl0UoKhRpkiSaJtZkleqSbiJdFbnAVPzE
+HNv1M7g5A7t0jGXzGP8Jddv7D/3/7HtFdzlFx4qJZKTqso51iSjctcxEqBuiZFKo
++0KXOhGcR7ma2BEqK0LxaCGPOuFcGnJs2/PREs/yBVCWoaTrUIV8e9jNCeVRD/M8
+EUpIBYBB1TCJbqqKCZkMVEQpVTQARcIIZFhWoUI1k4kIqCIg/NOgQIYaZNyFS5dH
+bCEoaQqECHAHDi2ww9Rv7lrZHJorBBcJKkMyMJocpitQZgY3Q0wAKOK1KVJ5PUZN
+iSJOhjCImAY1IDMVcVBYESVV0iXAhCXFfjunwCLd5f05vdj/Mr64ZIxJC7ijfMf2
+bGLn8niO5+W7QZ+LtzLfFxZSI/SiRMiwIiY/IzyjgDquZUc4J678NzIEOTJalG85
+NGT5ClnlZPjj9+HtOEMRixogIn8xTABD/GgAERGi6yKQZaJoClMQHzegmoogBQrh
+45aISRXKiP4PhjK3ibN5SQ4ugr0VDhWK48ujUY9AVHxgcP8hPQb++jAu47WINjXl
+UtnLa9Uz2r9Tgfi4pJcRmJgU2D8ntuHytq5v372bczAr+Xzes7Trk8tP9/cS0e26
+rdHhfZe3ZIVXTV/vxWQOnvWourU6t7xzZ828PUP7VSTXXp1RO35+8ciPrI1Z42N/
+qmw8cHFB32k3R05t232iCJKW9JoLT/uMqv9w+5HBwy/PTJU/B9dvbnraN2HonUK3
+eVFNwTh8dfa8G8E/Wm40pI27G1834L2EVvH7trfS9j8b+/GiPr+vfcU87uV90JnU
+q0UuO9kxJNgxZ/aC5MpSLWVE367HZ0dt/3nJGqfI3FzdODyjcuGEN6qbLlXkXYnp
+1xj/PLkl3Kf0UPmZYwmrtz0ZUJEzqwwubV43/97Ea11J5/deX3CweMu67IuPLhwo
+jZvoXWsf9LgpZ2xd6oFB7oO299/Zu3jfrtvGD7sfo1ObEzPV+wPD/cS0qGEdrV/+
+mND2avum3gs7o1c2HmlYevIWSUncAPuX96wGePSDoxeHpX+381YjOTy8un59guF1
+ZfY22ltjEtLLvi5bs/veN5+lvrm2V0VsbU3HF9HpmSV1VZlFy8dsSJlf2Ls1dPpM
+/dtZOz7RrsyZuSemSZpRqpybO+XKn4Xg9lfWNrxCmgTiTty/05xRtfDejh7p2bdK
+plSdP1jZXl/j/TViWlPq7EPP7w7K2DE57cm5ku2wKevopIbfUNThUyWfHjtZNGHx
+9EjJjX0Pn07q1fysOfJLwzA7kLnq9a3H19TO/Rs=
+=CfGo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cone56
+
+==================================================================
