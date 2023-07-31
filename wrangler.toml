@@ -7,7 +7,7 @@ kv_namespaces = [
 ]
 
 [site]
-bucket = "./dist/public"
+bucket = "./dist"
 
 [build]
 command = "npm run build"

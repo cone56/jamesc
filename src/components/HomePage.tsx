@@ -24,7 +24,7 @@ export const HomePage = () => {
     <Layout>
       <img
         class="rounded-full w-48 h-48 mb-10 block"
-        src="/public/me.jpg"
+        src="/me.jpg"
         alt="James Cockshull"
       />
       <h1 class="text-xl font-bold my-4">
