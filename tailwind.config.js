@@ -17,6 +17,10 @@ module.exports = {
           "13%": { transform: "rotate(-11deg)" },
           "16%": { transform: "rotate(0deg)" },
         },
+        slideIn: {
+          "0%": { opacity: 0, transform: "translateY(-40px)"},
+          "100%": { opacity: 1, transform: "translate(0)"}
+        }
       },
     },
   },

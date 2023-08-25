@@ -28,7 +28,7 @@ export const HomePage = () => {
         alt="James Cockshull"
       />
       <h1 class="text-xl font-bold my-4">
-        <span class="animate-[wave_3s_linear_infinite] inline-block">👋</span>{" "}
+        <span class="animate-[wave_3s_linear_1s_infinite] inline-block">👋</span>{" "}
         Hi there. I'm James
       </h1>
       <p class="my-4">I'm a full stack web developer from Eastbourne, UK.</p>

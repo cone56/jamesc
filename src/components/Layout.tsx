@@ -11,7 +11,7 @@ export const Layout = (props: { title?: string; children?: any }) => {
         <link rel="stylesheet" href="/app.css" />
       </head>
       <body
-        class="font-mono leading-7 mx-[10vw] my-[10vh] dark:selection:bg-custom-yellow selection:bg-blue-700 selection:text-neutral-100 dark:selection:text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 transition-all"
+        class="font-mono leading-7 mx-[10vw] my-[10vh] dark:selection:bg-custom-yellow selection:bg-blue-700 selection:text-neutral-100 dark:selection:text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 animate-[slideIn_300ms_ease-out]"
       >
         ${props?.children}
       </body>
