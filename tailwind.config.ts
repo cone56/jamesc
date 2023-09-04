@@ -1,6 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+import type { Config } from "tailwindcss"
 
-module.exports = {
+export default {
   content: ["./src/**/*.tsx"],
   darkMode: "media",
   theme: {
@@ -18,10 +18,10 @@ module.exports = {
           "16%": { transform: "rotate(0deg)" },
         },
         slideIn: {
-          "0%": { opacity: 0, transform: "translateY(-40px)"},
-          "100%": { opacity: 1, transform: "translate(0)"}
+          "0%": { opacity: '0', transform: "translateY(-40px)"},
+          "100%": { opacity: '1', transform: "translate(0)"}
         }
       },
     },
   },
-};
+} satisfies Config
