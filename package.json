@@ -12,7 +12,7 @@
     "tail": "wrangler pages deployment tail --project-name jamesc"
   },
   "dependencies": {
-    "@cloudflare/workers-types": "^4.20230904.0",
+    "@cloudflare/workers-types": "^4.20230914.0",
     "hono": "^3.6.3"
   },
   "devDependencies": {
