@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20230914.0",
-    "hono": "^3.6.3"
+    "hono": "^3.7.2"
   },
   "devDependencies": {
     "esbuild": "^0.19.3",
