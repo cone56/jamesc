@@ -10,8 +10,8 @@ const links = [
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/cone56",
-    label: "Twitter",
+    href: "https://bsky.app/profile/jamesc.dev",
+    label: "Bluesky",
   },
   {
     href: "https://instagram.com/james.cockshull/",
