@@ -1,2 +1,33 @@
-@tailwind base;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@keyframes wave {
+  0% {
+    transform: rotate(11deg);
+  }
+  3% {
+    transform: rotate(11deg);
+  }
+  6% {
+    transform: rotate(-11deg);
+  }
+  10% {
+    transform: rotate(11deg);
+  }
+  13% {
+    transform: rotate(-11deg);
+  }
+  16% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

@@ -39,7 +39,7 @@ export const HomePage: FC<{}> = () => (
       {links.map(({ href, label }) => (
         <li class="my-2">
           <a
-            class="text-blue-700 dark:text-custom-yellow"
+            class="text-blue-700 dark:text-yellow-400"
             href={href}
             rel="me external"
           >

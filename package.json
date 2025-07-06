@@ -7,7 +7,7 @@
     "dev": "run-p dev:*",
     "dev:wrangler": "wrangler pages dev dist --live-reload --compatibility-date=2023-07-24",
     "dev:css": "tailwindcss -i ./src/app.css -o ./dist/app.css --watch",
-    "build": "cp -rT ./public ./dist && tailwindcss --minify -i ./src/app.css -o ./dist/app.css && esbuild --bundle src/server.tsx --format=esm --outfile=dist/_worker.js",
+    "build": "cp -r ./public/ ./dist && tailwindcss --minify -i ./src/app.css -o ./dist/app.css && esbuild --bundle src/server.tsx --format=esm --outfile=dist/_worker.js",
     "deploy": "wrangler pages deploy dist --project-name jamesc",
     "tail": "wrangler pages deployment tail --project-name jamesc"
   },
@@ -16,9 +16,10 @@
     "hono": "^4.6.20"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
     "esbuild": "^0.25.0",
     "npm-run-all": "^4.1.5",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3",
     "wrangler": "^3.107.2"
   },
