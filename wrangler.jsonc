@@ -4,6 +4,9 @@
   "main": "./src/server.tsx",
   "compatibility_date": "2023-07-24",
   "compatibility_flags": ["rpc"],
+  "cache": {
+    "enabled": true
+  },
   "assets": {
     "directory": "./dist"
   },

@@ -15,6 +15,14 @@ declare module "hono" {
 const app = new Hono<{ Bindings: CloudflareBindings }>();
 
 app.use("*", LayoutRenderer);
+app.use("*", async (ctx, next) => {
+  await next();
+  if (ctx.req.path === "/counter") {
+    ctx.header("Cache-Control", "no-store");
+  } else if (ctx.res.status < 400) {
+    ctx.header("Cache-Control", "public, max-age=300");
+  }
+});
 
 app.get("/", (ctx) => ctx.render(<HomePage />));
 
