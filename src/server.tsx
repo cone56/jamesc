@@ -21,9 +21,8 @@ app.get("/", (ctx) => ctx.render(<HomePage />));
 app.get("/counter", async (ctx) => {
     const id = ctx.env.COUNTER.idFromName("counter");
     const stub = ctx.env.COUNTER.get(id);
-    const newValue = await stub.inc();
-    console.log(`Counter incremented to ${newValue}`);
-    return ctx.json({ counter: newValue.toString() });
+    const v = await stub.inc();
+    return ctx.json({ counter: v.toString() });
 });
 
 export { Counter };
