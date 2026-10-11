@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "lib": ["dom", "es2020"],
-    "moduleResolution": "Node",
+    "types": ["@cloudflare/workers-types"],
+    "skipLibCheck": true,
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
   }

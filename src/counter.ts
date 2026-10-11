@@ -1,14 +1,18 @@
-import { Handler } from "hono";
+import { DurableObject } from "cloudflare:workers";
 
-export const counter: Handler = async (ctx) => {
-  try {
-    const key = "counter";
-    let str = (await ctx.env.KV.get(key)) ?? "0";
-    let counter = (BigInt(str) + BigInt(1)).toString();
-    ctx.env.KV.put(key, counter);
-    return ctx.json({ counter });
-  } catch (err) {
-    console.error(err);
-    return ctx.json({ error: err?.message });
+export class Counter extends DurableObject<unknown> {
+  private _v: bigint = 0n;
+
+  constructor(ctx: DurableObjectState, env: unknown) {
+    super(ctx, env);
+    ctx.blockConcurrencyWhile(async () => {
+      this._v = (await ctx.storage.get<bigint>("val")) ?? 0n ;
+    });
   }
-};
+
+  async inc(amount = 1): Promise<bigint> {
+    this._v += BigInt(amount);
+    await this.ctx.storage.put("val", this._v);
+    return this._v;
+  }
+}
