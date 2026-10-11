@@ -1,30 +1,29 @@
 import { Hono } from "hono";
 import { HomePage } from "./components/HomePage";
-import { Counter } from "./counter";
+import { Fetcher, KVNamespace } from "@cloudflare/workers-types";
+import { serveStatic } from "hono/cloudflare-pages";
+import { counter } from "./counter";
 import { LayoutRenderer } from "./components/Layout";
+
+type Bindings = {
+  KV: KVNamespace;
+  ASSETS: Fetcher;
+};
 
 declare module "hono" {
   interface ContextRenderer {
-    (
-      content: string | Promise<string>,
-      head?: { title?: string },
-    ): Response;
+    (content: string, head?: { title?: string }): Response;
   }
 }
 
-const app = new Hono<{ Bindings: CloudflareBindings }>();
+const app = new Hono<{ Bindings: Bindings }>();
 
 app.use("*", LayoutRenderer);
 
 app.get("/", (ctx) => ctx.render(<HomePage />));
 
-app.get("/counter", async (ctx) => {
-    const id = ctx.env.COUNTER.idFromName("counter");
-    const stub = ctx.env.COUNTER.get(id);
-    const newValue = await stub.inc();
-    console.log(`Counter incremented to ${newValue}`);
-    return ctx.json({ counter: newValue.toString() });
-});
+app.get("/counter", counter);
 
-export { Counter };
+app.get("*", serveStatic());
+
 export default app;
