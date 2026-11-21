@@ -23,5 +23,21 @@
       "tag": "v1",
       "new_sqlite_classes": ["Counter"]
     }
-  ]
+  ],
+  "previews": {
+    "durable_objects": {
+      "bindings": [
+        {
+          "name": "COUNTER",
+          "class_name": "Counter"
+        }
+      ]
+    }
+  },
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    }
+  }
 }
