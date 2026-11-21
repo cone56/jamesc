@@ -17,20 +17,18 @@ const app = new Hono<{ Bindings: CloudflareBindings }>();
 app.use("*", LayoutRenderer);
 app.use("*", async (ctx, next) => {
   await next();
-  if (ctx.req.path === "/counter") {
-    ctx.header("Cache-Control", "no-store");
-  } else if (ctx.res.status < 400) {
+
+  if (ctx.req.path !== "/ws" && ctx.res.ok) {
     ctx.header("Cache-Control", "public, max-age=300");
   }
 });
 
 app.get("/", (ctx) => ctx.render(<HomePage />));
 
-app.get("/counter", async (ctx) => {
-    const id = ctx.env.COUNTER.idFromName("counter");
-    const stub = ctx.env.COUNTER.get(id);
-    const v = await stub.inc();
-    return ctx.json({ counter: v.toString() });
+app.get("/ws", (ctx) => {
+  const id = ctx.env.COUNTER.idFromName("counter");
+  const stub = ctx.env.COUNTER.get(id);
+  return stub.fetch(ctx.req.raw);
 });
 
 export { Counter };

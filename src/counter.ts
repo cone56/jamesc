@@ -1,18 +1,36 @@
 import { DurableObject } from "cloudflare:workers";
 
 export class Counter extends DurableObject<unknown> {
-  private _v: bigint = 0n;
+  async fetch(request: Request): Promise<Response> {
+    if (request.headers.get("Upgrade")?.toLowerCase() !== "websocket") {
+      return new Response("Expected WebSocket upgrade", { status: 426 });
+    }
 
-  constructor(ctx: DurableObjectState, env: unknown) {
-    super(ctx, env);
-    ctx.blockConcurrencyWhile(async () => {
-      this._v = (await ctx.storage.get<bigint>("val")) ?? 0n ;
-    });
+    const pair = new WebSocketPair();
+    const client = pair[0];
+    const server = pair[1];
+    this.ctx.acceptWebSocket(server);
+    this.broadcastCount();
+
+    return new Response(null, { status: 101, webSocket: client });
   }
 
-  async inc(amount = 1): Promise<bigint> {
-    this._v += BigInt(amount);
-    await this.ctx.storage.put("val", this._v);
-    return this._v;
+  webSocketClose(): void {
+    this.broadcastCount();
+  }
+
+  webSocketError(): void {
+    this.broadcastCount();
+  }
+
+  private broadcastCount(): void {
+    const sockets = this.ctx
+      .getWebSockets()
+      .filter((socket) => socket.readyState === WebSocket.OPEN);
+    const message = JSON.stringify({ count: sockets.length });
+
+    for (const socket of sockets) {
+      socket.send(message);
+    }
   }
 }
