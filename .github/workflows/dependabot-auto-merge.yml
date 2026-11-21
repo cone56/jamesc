@@ -1,0 +1,29 @@
+name: Dependabot auto-merge
+
+on:
+  check_run:
+    types: [completed]
+
+jobs:
+  enable-auto-merge:
+    if: "${{ github.event.check_run.name == 'Workers Builds: jamesc' && github.event.check_run.conclusion == 'success' }}"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Enable auto-merge for Dependabot pull requests
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COMMIT_SHA: ${{ github.event.check_run.head_sha }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/commits/$COMMIT_SHA/pulls" |
+            jq -r --arg sha "$COMMIT_SHA" \
+              '.[] | select(.state == "open" and .user.login == "dependabot[bot]" and .head.sha == $sha) | .number' |
+            while IFS= read -r pull_request; do
+              [ -n "$pull_request" ] || continue
+              gh pr merge "$pull_request" \
+                --repo "$GITHUB_REPOSITORY" \
+                --auto \
+                --squash
+            done
