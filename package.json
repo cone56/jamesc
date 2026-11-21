@@ -7,7 +7,7 @@
     "dev": "npm run build && run-p dev:*",
     "dev:wrangler": "wrangler dev --live-reload",
     "dev:css": "tailwindcss -i ./src/app.css -o ./dist/app.css --watch",
-    "build": "cp -r ./public/ ./dist && tailwindcss --minify -i ./src/app.css -o ./dist/app.css && tsc --target ES2020 --lib DOM,ES2020 --module ES2020 --outDir dist src/client.ts",
+    "build": "cp -r ./public/ ./dist && tailwindcss --minify -i ./src/app.css -o ./dist/app.css && tsc --project tsconfig.client.json",
     "deploy": "npm run build && wrangler deploy",
     "tail": "wrangler tail",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings --include-runtime=false"
