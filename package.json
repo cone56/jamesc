@@ -5,6 +5,7 @@
   "author": "James Cockshull",
   "scripts": {
     "dev": "npm run build && run-p dev:*",
+    "dev:client": "tsc --project tsconfig.client.json --watch --preserveWatchOutput",
     "dev:wrangler": "wrangler dev --live-reload",
     "dev:css": "tailwindcss -i ./src/app.css -o ./dist/app.css --watch",
     "build": "cp -r ./public/ ./dist && tailwindcss --minify -i ./src/app.css -o ./dist/app.css && tsc --project tsconfig.client.json",

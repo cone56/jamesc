@@ -46,7 +46,7 @@ export const LayoutRenderer = jsxRenderer(
           id="visitor-count"
           class="fixed left-3 bottom-3 min-w-4 text-xs tabular-nums text-neutral-400 dark:text-neutral-600"
           aria-live="polite"
-          aria-label="Open connections"
+          aria-label="Open connections (unique count)"
         >
         </div>
         <script type="module" src="/client.js"></script>

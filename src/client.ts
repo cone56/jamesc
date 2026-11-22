@@ -55,8 +55,11 @@ themeToggle?.addEventListener("click", () => {
 applyTheme(chosenTheme ?? (systemTheme.matches ? "dark" : "light"));
 
 socket.addEventListener("message", (event) => {
-  const update = JSON.parse(event.data) as { count: number };
-  visitorCount.textContent = String(update.count);
+  const update = JSON.parse(event.data) as {
+    count: number;
+    uniqueCount: number;
+  };
+  visitorCount.textContent = `${update.count} (${update.uniqueCount})`;
 });
 
 socket.addEventListener("close", () => {
